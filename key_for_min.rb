@@ -7,10 +7,10 @@ name_hash={
 }
 
 def key_for_min_value(name_hash)
-  name_hash.each do |kids_name, age|
+  name_hash.collect do |kids_name, age|
     age
   end
-  num.collect do |a, b|
+  name_hash.collect do |a, b|
     if a == b
       0
     elsif a < b
@@ -24,5 +24,5 @@ def key_for_min_value(name_hash)
 
 
 
-    key_for_min_value(name)
+    key_for_min_value(name_hash)
 end
