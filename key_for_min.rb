@@ -13,11 +13,11 @@ def key_for_min_value(name_hash)
     age
   end
   name_hash.collect do |namea, numb, namec, numd|
-    if b == d
+    if numb == numd
       0
-    elsif a < b
+    elsif numb < numd
       -1
-    elsif a > b
+    elsif numb > numd
       1
     end
 
