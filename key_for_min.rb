@@ -8,10 +8,6 @@ name_hash={
 
 def key_for_min_value(name_hash)
 
-
-  name_hash.collect do |kids_name, age|
-    age
-  end
   name_hash.collect do |namea, numb, namec, numd|
     if numb == numd
       0
@@ -22,4 +18,3 @@ def key_for_min_value(name_hash)
     end
 
 end
-    
