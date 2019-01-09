@@ -1,8 +1,8 @@
 # prereqs: iterators, hashes, conditional logic
 # Given a hash with numeric values, return the key for the smallest value
 name_hash={
-  "Timmy" => 9, 
-  "Sarah" => 6, 
+  "Timmy" => 9,
+  "Sarah" => 6,
   "Amanda" => 27
 }
 
