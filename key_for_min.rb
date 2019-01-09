@@ -10,11 +10,11 @@ def key_for_min_value(name_hash)
     elsif a>b
       1
     end
-  
+
 
   end
 
 
-    
+
     key_for_min_value(name)
 end
