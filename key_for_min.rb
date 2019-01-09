@@ -7,8 +7,8 @@ name_hash={
 }
 
 def key_for_min_value(name_hash)
-  name_hash.collect do |kids_name, age|
-    age
+  name_hash.each do |kids_name, age|
+    num = "#{age}"
   end
   name_hash.collect do |a, b|
     if a == b
